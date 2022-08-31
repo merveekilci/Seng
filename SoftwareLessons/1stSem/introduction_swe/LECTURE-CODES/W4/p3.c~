@@ -1,0 +1,21 @@
+// Scope and life span of a variable
+
+// Function prototypes
+void foo1();
+void foo2();
+void foo3();
+int main()
+{
+}
+
+void foo1()
+{
+}
+
+void foo2()
+{
+}
+
+void foo3()
+{
+}

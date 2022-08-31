@@ -1,0 +1,42 @@
+#ust{
+    background-color: orange;
+    color: brown;
+    height: 150px;
+    padding: 5px;
+}
+
+#ara{
+    width: 70%;
+    padding: 1%;
+    float: left;
+}
+
+input{
+   width: 300px;
+}
+
+#ustsol{
+    font-size: 11px;
+    padding: 1%;
+    float: left;
+    text-align: center;
+    
+}
+
+.t1{
+    border-right: 1px solid;
+}
+
+#altsol{
+    padding: 2px;
+    float: left;
+    width:60%;
+}
+
+#altsag{
+    padding: 5px;
+    float: left;
+}
+.t2{
+    border-right: 1px double ;
+}

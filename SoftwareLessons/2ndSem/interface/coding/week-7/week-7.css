@@ -1,0 +1,65 @@
+
+#ust{
+    background-color: orange;
+    color: orangered;
+    height: 80px;
+    padding: 5px;
+
+}
+
+.bosluk{
+    background-color: white;
+    clear: both;
+}
+
+#ortaust{
+    background-color: white;
+    color: tomato;
+    text-align: center;
+    height:80px;
+    padding:5px;
+}
+
+#ortaaltsol{
+    background-color: turquoise;
+    text-align: left;
+    height: 80px;
+    width: 32%;
+    padding: 5px;
+    color: tomato;
+    float:left
+    
+}
+
+.ortabosluk{
+    background-color: white;
+
+}
+
+#ortaaltorta{
+    background-color: yellow;
+    height: 80px;
+    width: 30%;
+    margin-left: 1%;
+    padding: 5px;
+    text-align: left;
+    color: tomato;
+    float:left
+    
+}
+
+#ortaaltsag{
+    background-color: violet;
+    height: 80px;
+    width: 30%;
+    margin-left: 1%;
+    padding: 5px;
+    text-align: left;
+    color: tomato;
+    float: left;
+}
+
+#alt{
+    background-color: tan;
+
+}

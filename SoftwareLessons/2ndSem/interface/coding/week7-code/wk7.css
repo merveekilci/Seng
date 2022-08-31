@@ -1,0 +1,57 @@
+#ust{
+    background-color: pink;
+    color: blueviolet;
+    height: 80px;
+    padding: 5px;
+}
+.bosluk{
+    width: 100px;
+    height: 10px;
+    clear: both;
+}
+
+#ortaust{
+    background-color: rgb(199, 196, 196);
+    color:blueviolet;
+    height: 180px;
+    padding: 5px;
+    text-align: center;
+}
+#ortaaltsol{
+    background-color: rgb(155, 155, 209);
+    color: blueviolet;
+    width: 30%;
+    height: 180px;
+    padding: 1%;
+    float: left;
+}
+#ortaaltorta{
+    background-color: rgb(146, 110, 179);
+    color: blueviolet;
+    width: 30%;
+    height: 180px;
+    padding: 1%;
+    float: left;
+}
+#ortaaltsag{
+    background-color: rgb(223, 170, 72);
+    color: blueviolet;
+    width: 30%;
+    height: 180px;
+    padding: 1%;
+    float: left;
+}
+.ortabosluk{
+    width: 2%;
+    height: 180px;
+    float: left;
+}
+#ortaalt{
+    height: 180px;
+}
+#alt{
+    background-color: pink;
+    color: blueviolet;
+    padding: 5px;
+    height: 50px;
+}

@@ -1,0 +1,56 @@
+p{
+    font-size:30px;
+    color:red;
+}
+#testid{
+    font-size:15px;
+    background-color:blue;
+    font-family: "Lucida ";
+    color:white;
+}
+.test_class{
+    font-size:10px;
+    background-color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-align: center;
+}
+#id_div1{
+    background-color: coral;
+    color:darkblue;
+    width: 150px;
+    height: 100px;
+
+}
+#id_div1{
+    color: black;
+}
+
+span{
+    background-color: blueviolet;
+    color: brown;
+}
+div{
+    background-color: cadetblue;
+    color: chartreuse;
+}
+#id_div2{
+    background-color: purple;
+    color: black
+}
+#id_div3{
+    background-color: pink;
+    color: black;
+}
+
+.department{
+    background-color: blueviolet;
+    float: left;
+
+}
+.courses{
+    background-color: cadetblue;
+}
+body {
+    background-color: darkgray;
+}

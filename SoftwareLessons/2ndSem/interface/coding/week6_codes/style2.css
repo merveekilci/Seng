@@ -1,0 +1,36 @@
+body{
+    font-size: large;
+}
+
+.university{
+    background-color: purple;
+    text-align: center;
+    color: aliceblue;
+}
+
+.departments{
+    background-color: pink;
+    color: antiquewhite;
+    text-align: left;
+    width: 50%;
+    float: left;
+  
+}
+
+.courses{
+    background-color: blueviolet;
+    color:beige;
+    text-align: left;  
+    width: 50%;
+    float: left;
+}
+
+.faculty{
+    text-align: center;
+    background-color: cadetblue;
+    color: black;
+}
+
+.whitearea{
+    clear:both;
+}

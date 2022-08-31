@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>form</title>
+    </head>
+    <body> 
+ <form action="#" enctype="multipart/form-data">
+            <h1>XXX DESIGN PROGRAM SETTING and CONTRACT :)</h1>
+            <fieldset>
+                <legend>Contract Confirm</legend>
+                <label><input type="checkbox" required>I accept the accuracy of the information below and confirm the contract.</label><br>
+                <input type="submit" value="Save Form">
+                <input type="reset" value="Clean Form">
+            </fieldset>
+            <fieldset>
+                <legend>Personel Information</legend>
+                <table width="350">
+                    <tr>
+                        <td>Form Security ID</td>
+                        <td><input type="text" id="gid" name="gid" value="asdfgh" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" id="name" name="ad" placeholder="Write your name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Surname</td>
+                        <td><input type="text" id="surname" placeholder="Write your surname" name="surname" required></td>
+                    </tr>
+                    <tr>
+                        <td>Age</td>
+                        <td><input type="number" min="20" max="100" id="age" name="age"></td>
+                    </tr>
+                    <tr>
+                        <td>Mail Address</td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Add an Image</td>
+                        <td><input type="file" id="photo" name="photo"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Other Information</legend>
+                <table width="350">
+                    <tr>
+                        <th colspan="2">Fields here Cover Professional Experience</th>
+                    </tr>
+                    <tr>
+                        <td>Entering the Industry Date</td>
+                        <td>
+                            <input type="date" name="tarih" id="tarih" value="2010-01-01">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sector Experience</td>
+                        <td>
+                        <label><input type="radio" name="deneyim">1 - 5 years</label><br>
+                        <label><input type="radio" name="deneyim">6 - 10 years</label><br>
+                        <label><input type="radio" name="deneyim">11 - 15 years</label><br>
+                        <label><input type="radio" name="deneyim">15 over years</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Programming Languages</td>
+                        <td>
+                            <select name="dil" id="dil" multiple size="5">
+                                <option>C#</option>
+                                <option selected>PHP</option>
+                                <option>Java</option>
+                                <option>Python</option>
+                                <option>JavaScript</option>
+                                <option>C++</option>
+                                <option>C</option>
+                                <option>Pascal</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Contract Copy</legend>
+                <textarea id="kopya" name="kopya" rows="5" readonly cols="50" >Lorem Ipsum, </textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Mail List</legend>
+                I <b>want</b> to join the mailing list <input type="radio" name="liste" checked><br>
+                I <b>dont want</b> to join the mailing list <input type="radio" name="liste">
+            </fieldset>
+        </form>
+    </body>
+</html>

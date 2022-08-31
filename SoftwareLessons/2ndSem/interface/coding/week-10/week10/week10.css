@@ -1,0 +1,146 @@
+body{
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    color:grey; 
+}
+h1, h2{
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #333333;
+}
+h1{
+    font-size: 197%;
+}
+h2{
+    font-size: 152%;
+}
+
+/* Menu */
+#menu{
+    width: 770px;
+    height: 105px;
+    margin: 0 auto;
+    background-color: #ffdded;
+    background-image: url(banner.jpg);
+}
+#menu li{
+    float: left;
+    width: 120px;
+    height: 65px;
+    padding: 60px 0 0 0;
+}
+#menu a{
+    width: 120px;
+    height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/* ----------*/
+
+/* header */
+#header{
+    width: 770px;
+    height: 160px;
+    margin: 0 auto;
+}
+#logo{
+    float: left;
+    width: 250px;
+    height: 160px;
+    background-color: pink;
+}
+#logo h1{
+    text-align: center;
+    padding-top: 80px;
+    letter-spacing: 8px;
+    font-size: 197%;
+}
+#banner{
+    float: right;
+    width: 520px;
+    height: 160px;
+    background-color: #f2d696;
+}
+#page{
+    width: 760px;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+#content{
+    float: right;
+    width: 510px;
+}
+.post{
+    margin-bottom: 20px;
+}
+.post .title{
+    padding: 0 20px;
+}
+.post .story{
+    padding: 0 20px;
+}
+.boxed .title{
+    height: 32px;
+    margin: 0px;
+    padding:  8px 0 0 20px;
+    background-color: #f7a599;    
+}
+.boxed .story{
+    padding: 20px;
+    border: 1px solid #ff8d17;
+}
+#sidebar{
+    float: left;
+    width: 240px;
+}
+#sidebar ul{
+    margin: 0;
+    padding: 0;
+}
+#sidebar li{
+    margin-bottom: 15px;
+}
+#sidebar li ul{
+    padding: 10px;
+    border: 1px solid #0aaafd;
+}
+#sidebar li li{
+    margin: 0px;
+    padding: 3px 5px;
+    background-color: #c5e8e4;
+}
+#sidebar li h2{
+    height: 30px;
+    margin: 0px;
+    padding: 10px 0 0 15px;
+    color: #327ebe;
+}
+#sidebar a:link{    
+    text-decoration: none;
+}
+#sidebar a:hover{
+    text-decoration: underline;
+    color: #f77772;
+}
+
+#footer{
+    clear: both;
+    height: 100px;
+    padding:  15px 0;
+    background: #d1d1d1;
+    border-top: 5px solid #999999 ;
+    text-align: center;
+}
+#footer p{
+    margin: 0;
+    color: #999999;
+}
+#footer a:hover{
+    color:#ffffff;
+}
+

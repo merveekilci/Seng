@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>form</title>
+    </head>
+    <body>
+            <form action="#" method="get"  enctype="multipart/form-data">
+                <table border="2">
+            <tr>
+                <td><label for="ad">Name</label></td>
+                <td colspan="1"><input type="text" name="ad" id="ad" required></td>
+            </tr>
+            
+            <tr>
+                <td>Surname</td>
+                <td colspan="1"><input type="text" name="soyad" id="soyad" required></td>
+            </tr>
+            
+            <tr>
+                <td>Age</td>
+                <td><input type="number" name="yas" id="yas" min="0" max="120" placeholder="Write your age" style="width: 120px;;" ></td>
+            </tr>
+            
+            <tr>
+                <td>Add Image</td>
+                <td><input type="file" name="resim" id="resim"></td>
+            </tr>
+            
+            <tr>
+                <td>ID No</td>
+                <td><input type="text" name="tc" id="tc" maxlength="11"></td>
+            </tr>
+            
+            <tr>
+                <td>Gender</td>
+                <td>W<input type="radio" name="cinsiyet" id="cinsiyet" value="K" checked>
+                M<input type="radio" name="cinsiyet" id="cinsiyet1" value="E"></td>
+            </tr>
+
+            <tr>
+                <td>Foreign Language</td>
+                <td>English<input type ="checkbox" name="dil" id="dil" checked value="ingilizce">
+                    French<input type="checkbox" name="dil1" id="dil1" value="fransızca">       
+                    Japanese<input type="checkbox" name="dil2" id="dil2" value="japonca">       
+                           </td>
+                
+                <tr>
+                    <td>Comments</td>
+                    <td>
+                        <textarea name="gorus" id="gorus" placeholder="YOUR COMMENTS ARE IMPORTANT FOR US"></textarea>
+                    </td>    
+                </tr>
+            </tr>
+            
+                        <tr>
+            <td colspan="2">
+            <input type="submit" name="kaydet" id="kaydet" value="SAVE">
+            <input type="reset" name="sil" id="sil" value="CLEAN">
+ 
+            </td>
+            </tr>
+       
+        </table>
+        </form>
+    </body>
+</html>
+
+            
+
