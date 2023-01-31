@@ -1,0 +1,47 @@
+@model IEnumerable<student>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Course Controller</title>
+</head>
+<body>
+    <div class="container m-4">
+        <div class="card mx-auto" style="width: 500px;">
+           <div class="card-header">
+                Participants
+           </div>
+           <div class="card-body">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Email</td>
+                        <td>Phone</td>
+                        <td>Confirm</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var item in Model){
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Email</td>
+                            <td>@item.Phone</td>
+                            <td>@item.Confirm</td>
+                        </tr>
+                    }
+                </tbody>
+        
+            </table>
+           </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

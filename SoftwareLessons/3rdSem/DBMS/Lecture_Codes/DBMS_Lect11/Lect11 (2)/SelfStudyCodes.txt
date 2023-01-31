@@ -1,0 +1,30 @@
+CREATE TABLE "public"."monitorSupplierChanging" (
+	"recordNo" serial,
+	"productNo" SmallInt NOT NULL,
+	"oldSupplier" Real NOT NULL,
+	"newSupplier" Real NOT NULL,
+	"updateDate" TIMESTAMP NOT NULL,
+	CONSTRAINT "PK3" PRIMARY KEY ("recordNo")
+);
+
+
+CREATE OR REPLACE FUNCTION "monitorSupplierChanging"()
+RETURNS TRIGGER 
+AS
+$$
+BEGIN
+    IF NEW."SupplierID" <> OLD."SupplierID" THEN
+        INSERT INTO "monitorSupplierChanging"("productNo", "oldSupplier", "newSupplier", "updateDate")
+        VALUES(OLD."ProductID", OLD."SupplierID", NEW."SupplierID", CURRENT_TIMESTAMP::TIMESTAMP);
+    END IF;
+
+    RETURN NEW;
+END;
+$$
+LANGUAGE "plpgsql";
+
+CREATE TRIGGER "productSupplierChanging"
+BEFORE UPDATE ON "products"
+FOR EACH ROW
+EXECUTE PROCEDURE "monitorSupplierChanging"();
+

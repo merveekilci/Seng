@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{67DA8741-F362-438E-9789-37564BC8348B}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CourseApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/HomeController.cs">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" Line="11" Column="29" />
+      <File FileName="Views/Home/Index.cshtml" Line="19" Column="35" />
+      <File FileName="Views/Course/Apply.cshtml" Line="44" Column="23" />
+      <File FileName="Controllers/CourseController.cs" Line="42" Column="10" />
+      <File FileName="Models/Repository.cs" Line="13" Column="34" />
+      <File FileName="Models/course.cs" Line="6" Column="26" />
+      <File FileName="Models/student.cs" Line="7" Column="16" />
+      <File FileName="Views/Course/Details.cshtml" Line="22" Column="56" />
+      <File FileName="Views/Course/Thanks.cshtml" Line="17" Column="36" />
+      <File FileName="Program.cs" Line="25" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CourseApp" expanded="True">
+            <Node name="CourseApp" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Course" expanded="True" />
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -1,0 +1,49 @@
+@model CourseApp.ViewModels.CourseStudentsViewModel
+
+@{
+    var classname=Model.std.Count >3 ? "popular" : null;
+}
+
+@*
+comment line 
+*@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Controller</title>
+    <style>
+        .popular{
+            color:green;
+            font-weight: 700;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 class="@classname">@Model.crs.Name </h1>
+
+
+
+    @if(Model.std.Count==0){
+        <text> There isn't any participant in this course. </text>
+    }
+    else{
+        <ul>
+            @foreach(var item in Model.std)
+            {
+                <li>
+                    @item.Name
+                </li>
+            }
+        </ul>
+    }
+    
+
+
+</body>
+</html>

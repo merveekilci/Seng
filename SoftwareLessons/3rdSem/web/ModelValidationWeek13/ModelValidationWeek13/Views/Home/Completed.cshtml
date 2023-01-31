@@ -1,0 +1,25 @@
+﻿@model Register
+
+@{
+    ViewData["Title"] = "Completed";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="bg-primary text-white m-1 p-1">
+    Register Completed
+</div>
+
+<table class="table table-striped">
+    <tr>
+        <th>User Name</th>
+        <td>@Model.UserName</td>
+    </tr>
+    <tr>
+        <th>E-mail</th>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <th>Birth Date</th>
+        <td>@Model.Birthdate.ToString("d")</td>
+    </tr>
+</table>

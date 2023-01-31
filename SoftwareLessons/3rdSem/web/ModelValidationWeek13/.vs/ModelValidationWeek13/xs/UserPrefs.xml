@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{9E5070CC-27A0-46AB-8906-A5529BE68135}|Default">
+  <MonoDevelop.Ide.ItemProperties.ModelValidationWeek13 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ModelValidationWeek13/Models/Register.cs">
+    <Files>
+      <File FileName="ModelValidationWeek13/Controllers/HomeController.cs" Line="11" Column="10" />
+      <File FileName="ModelValidationWeek13/Models/Register.cs" Line="16" Column="1" />
+      <File FileName="ModelValidationWeek13/Views/Home/Completed.cshtml" Line="23" Column="41" />
+      <File FileName="ModelValidationWeek13/Views/Home/Register.cshtml" Line="43" Column="65" />
+      <File FileName="ModelValidationWeek13/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="ModelValidationWeek13/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="ModelValidationWeek13/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="ModelValidationWeek13/appsettings.json" Line="7" Column="5" />
+      <File FileName="ModelValidationWeek13/Program.cs" Line="23" Column="18" />
+      <File FileName="ModelValidationWeek13/Pages/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="ModelValidationWeek13/Pages/Index.cshtml" Line="1" Column="1" />
+      <File FileName="ModelValidationWeek13/Pages/Error.cshtml" Line="1" Column="1" />
+      <File FileName="ModelValidationWeek13/Pages/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="ModelValidationWeek13/Pages/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="ModelValidationWeek13/Properties/launchSettings.json" Line="27" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ModelValidationWeek13" expanded="True">
+            <Node name="ModelValidationWeek13" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Register.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

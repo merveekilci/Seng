@@ -1,0 +1,58 @@
+﻿<Properties StartupConfiguration="{766337DE-31AF-41F0-9962-8B35F3E57A77}|Default">
+  <MonoDevelop.Ide.ItemProperties.CourseApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Course/Thanks.cshtml">
+    <Files>
+      <File FileName="Models/student.cs" Line="15" Column="27" IsPinned="True" />
+      <File FileName="Controllers/CourseController.cs" Line="47" Column="39" />
+      <File FileName="Models/Repository.cs" Line="5" Column="62" />
+      <File FileName="Models/course.cs" Line="3" Column="18" />
+      <File FileName="Controllers/HomeController.cs" Line="14" Column="10" />
+      <File FileName="Views/Course/Apply.cshtml" Line="24" Column="59" />
+      <File FileName="Views/_ViewImports.cshtml" Line="4" Column="1" />
+      <File FileName="Views/Course/Details.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Course/Index.cshtml" Line="35" Column="10" />
+      <File FileName="Views/Course/List.cshtml" Line="23" Column="38" />
+      <File FileName="Views/Course/Thanks.cshtml" Line="29" Column="28" />
+      <File FileName="ViewModels/CourseStudentsViewModel.cs" Line="5" Column="18" />
+      <File FileName="Views/Home/Index.cshtml" Line="15" Column="52" />
+      <File FileName="Views/Home/About.cshtml" Line="12" Column="8" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CourseApp" expanded="True">
+            <Node name="CourseApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Course" expanded="True">
+                  <Node name="Thanks.cshtml" selected="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+              <Node name="package.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

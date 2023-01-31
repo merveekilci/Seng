@@ -1,0 +1,53 @@
+﻿@model Register
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*@section scripts{   
+    <script src="c:\users\administrator\desktop\modelvalidationweek13\modelvalidationweek13\wwwroot\lib\jquery\dist\jquery.min.js"></script>
+    <script src="c:\users\administrator\desktop\modelvalidationweek13\modelvalidationweek13\wwwroot\lib\jquery\dist\jquery.js"></script>
+
+    <script>
+        $(function(){
+            .....
+        });
+    </script>
+}*@
+
+
+<div class="bg-primary text-white m-1 p-1">
+    Register
+</div>
+
+<form asp-action="Register" method="post">
+
+    <div class="text-danger" asp-validation-summary="All"></div>
+
+    <div class="form-group">
+        <label asp-for="UserName">Name : </label>
+        <input class="form-control" asp-for="UserName"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email">Email : </label>
+        <input type="email" class="form-control" asp-for="Email" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password">Password : </label>
+        <input class="form-control" asp-for="Password" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Birthdate">Birthdate : </label>
+        <input type="text" class="form-control" asp-format="{0:d}" asp-for="Birthdate" />
+    </div>
+
+    <div class="radio form-group">
+        <input asp-for="TermsAccepted" />
+        <label class="form-check-label" asp-for="TermsAccepted"> I Accept Terms and Conditions.  </label>
+        
+    </div>
+    <input type="submit" value="Register" />
+
+</form>

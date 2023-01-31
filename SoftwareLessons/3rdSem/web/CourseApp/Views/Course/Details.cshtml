@@ -1,0 +1,27 @@
+@model CourseApp.Models.course 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Course Controller</title>
+</head>
+<body>
+    <div class="container m-4">
+        <div class="card mx-auto" style="width: 500px;">
+           <div class="card-header">
+              Courses
+           </div>
+           <div class="card-body">
+                <div class="card-text">@Model.Name</div>   
+                <div class="card-text"> @Model.Description</div>
+                <div class="card-text"> @Model.IsOpened </div>
+           </div>
+        </div>
+    </div>
+</body>
+</html>

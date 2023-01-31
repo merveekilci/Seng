@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{EA02396A-A544-407E-B437-6CC32C70538C}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BF PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BF/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="BF/Views/Home/Create.cshtml" Line="20" Column="41" />
+      <File FileName="BF/Program.cs" Line="33" Column="25" />
+      <File FileName="BF/Views/Home/Index.cshtml" Line="34" Column="53" />
+      <File FileName="BF/Controllers/HomeController.cs" Line="30" Column="98" />
+      <File FileName="BF/Models/ProductRepository.cs" Line="30" Column="1" />
+      <File FileName="BF/Models/Product.cs" Line="3" Column="18" />
+      <File FileName="BF/Views/Home/Search.cshtml" Line="14" Column="63" />
+      <File FileName="BF/Views/Shared/_Layout.cshtml" Line="12" Column="1" />
+      <File FileName="BF/Views/_ViewImports.cshtml" Line="2" Column="29" />
+      <File FileName="BF/Views/_ViewStart.cshtml" Line="3" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BF" expanded="True">
+            <Node name="BF" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="package.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

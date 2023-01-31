@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "WBhbc0xjw0Go+s6yM64XLot/IYvhXf0ujKEXIP+YL50=",
+  "Source": "CourseApp",
+  "BasePath": "_content/CourseApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CourseApp/wwwroot",
+      "Source": "CourseApp",
+      "ContentRoot": "/Users/mervekilci/Desktop/3rdSem/web/project3/CourseApp/wwwroot/",
+      "BasePath": "_content/CourseApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/mervekilci/Desktop/3rdSem/web/project3/CourseApp/wwwroot/css/style.css",
+      "SourceId": "CourseApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mervekilci/Desktop/3rdSem/web/project3/CourseApp/wwwroot/",
+      "BasePath": "_content/CourseApp",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    }
+  ]
+}

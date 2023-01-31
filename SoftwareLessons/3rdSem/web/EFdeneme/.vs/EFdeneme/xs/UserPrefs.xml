@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{A9EA1C47-6499-43E6-B57E-C8E5A84E99A8}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EFdeneme/Properties/launchSettings.json">
+    <Files>
+      <File FileName="EFdeneme/Controllers/ProductController.cs" Line="20" Column="61" />
+      <File FileName="EFdeneme/Migrations/20221212214706_initial.cs" Line="21" Column="74" />
+      <File FileName="EFdeneme/Migrations/ApplicationDbContextModelSnapshot.cs" Line="22" Column="78" />
+      <File FileName="EFdeneme/Models/ApplicationDbContext.cs" Line="14" Column="6" />
+      <File FileName="EFdeneme/Models/EfProductRepository.cs" Line="14" Column="2" />
+      <File FileName="EFdeneme/Models/FakeProductRepository.cs" Line="13" Column="1" />
+      <File FileName="EFdeneme/Models/IProductRepository.cs" Line="9" Column="1" />
+      <File FileName="EFdeneme/Models/Product.cs" Line="1" Column="1" />
+      <File FileName="EFdeneme/Models/SeedData.cs" Line="13" Column="1" />
+      <File FileName="EFdeneme/Pages/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="EFdeneme/Pages/_ViewStart.cshtml" Line="4" Column="1" />
+      <File FileName="EFdeneme/Pages/Error.cshtml" Line="1" Column="1" />
+      <File FileName="EFdeneme/Pages/Index.cshtml" Line="1" Column="1" />
+      <File FileName="EFdeneme/Pages/Privacy.cshtml" Line="9" Column="1" />
+      <File FileName="EFdeneme/Views/Product/Index.cshtml" Line="1" Column="1" />
+      <File FileName="EFdeneme/Views/Product/List.cshtml" Line="14" Column="28" />
+      <File FileName="EFdeneme/Views/Shared/_Layout.cshtml" Line="6" Column="18" />
+      <File FileName="EFdeneme/Views/_ViewImports.cshtml" Line="2" Column="53" />
+      <File FileName="EFdeneme/Program.cs" Line="28" Column="40" />
+      <File FileName="EFdeneme/Pages/Error.cshtml.cs" Line="1" Column="1" />
+      <File FileName="EFdeneme/Properties/launchSettings.json" Line="27" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EFdeneme" expanded="True">
+            <Node name="EFdeneme" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Product" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EFdeneme PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

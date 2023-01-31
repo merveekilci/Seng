@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="/Modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Home Controller</title>
+</head>
+<body>
+    <div class="container m-4">
+        <div class="card mx-auto" style="width: 500px;">
+            <div class="card-header">                
+                @ViewBag.Greeting @ViewBag.User Welcome!
+            </div>
+            <div class="card-body">
+                <p class="card-text"> We hope you are good! </p>
+                <a asp-action="Apply" asp-controller="Course" class="btn btn-primary btn-block"> Registration </a>
+            </div>
+        </div>
+    </div>   
+    
+</body>
+</html>
